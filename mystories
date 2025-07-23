@@ -15,7 +15,7 @@
             text-align: center;
         }
 
-  .background-box {
+  background-box {
             width: 80%;                   /* 80% of screen width */
             max-width: 1200px;            /* optional max size */
             margin: 40px auto;            /* centers it with top/bottom spacing */
