@@ -9,7 +9,7 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background: url('martainhertiage.png') no-repeat center center fixed;
-
+              background-size: 80% auto;
             background-size: cover;
             color: black;
             text-align: center;
