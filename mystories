@@ -8,12 +8,29 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: url('martainhertiage.png') no-repeat center center fixed;
-              background-size: 80% auto;
+       /*   background: url('martainhertiage.png') no-repeat center center fixed; */
+        /*      background-size: 80% auto; */
        
             color: black;
             text-align: center;
         }
+
+  .background-box {
+            width: 80%;                   /* 80% of screen width */
+            max-width: 1200px;            /* optional max size */
+            margin: 40px auto;            /* centers it with top/bottom spacing */
+            background: url('martainhertiage.png') no-repeat center center;
+            background-size: contain;     /* keeps proportions */
+            background-color: white;      /* background behind image */
+            padding: 50px;                /* space for text */
+            border-radius: 10px;          /* optional rounded edges */
+            box-shadow: 0 0 20px rgba(0,0,0,0.5); /* nice shadow */
+        }
+
+
+
+
+
         h1 {
             background-color: lightblue;
             padding: 20px;
