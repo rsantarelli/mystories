@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stories</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('martian hertiage') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+            text-align: center;
+        }
+        h1 {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 0;
+        }
+        h2 {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 0;
+        }
+        .player-container {
+            margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        audio {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Stories</h1>
+    <h2>by Richard Santarelli</h2>
+
+    <div class="player-container">
+        <p>Listen to my stories:</p>
+        <audio controls>
+            <source src="your-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
