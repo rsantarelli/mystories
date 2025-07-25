@@ -40,7 +40,7 @@
     <h1>My Stories</h1>
     <h2>by Richard Santarelli</h2>
     <div class="player-container">
-             <p>A Rfit in Time</p>
+             <p>A Rift in Time</p>
         <audio controls>
             <source src="ariftintime.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
