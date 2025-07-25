@@ -39,7 +39,6 @@
 <body>
     <h1>My Stories</h1>
     <h2>by Richard Santarelli</h2>
-
     <div class="player-container">
              <p>A Rfit in Time</p>
         <audio controls>
@@ -50,8 +49,7 @@
 
 <div class="player-container">
   <p>The camara that whispers</p>
-     
-        <audio controls>
+             <audio controls>
             <source src="the-camara-that-whispers.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
